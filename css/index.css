@@ -90,6 +90,7 @@ nav {
 }
 
 .nav-links a {
+    font-size: 0.9rem;
     text-decoration: none;
     color: #000;
 }
@@ -200,9 +201,14 @@ nav {
 
 /* CSS specific to about.html -----------------------------------------------------------------------------------------------*/
 
+hr {
+    border: none;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 3%;
+}
+
 .section-about {
     margin: 3% 0;
-    border-bottom: 1px dashed #000;
 }
 
 .section-about p {
@@ -213,13 +219,23 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.about-padding {
+    padding: 0 2%;
 }
 
 .about-box {
     flex-basis: 40%;
     border-bottom: 1px dashed #000;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.about-box img {
+    margin-bottom: 1%;
 }
 
 .about-box p {
@@ -231,6 +247,10 @@ nav {
     border-radius: 6px;
     background: #fff;
     padding: 2% 4%;
+}
+
+.section-cta {
+    margin-bottom: 4%;
 }
 
 /* END of CSS specific to about.html--------------------------------------------------------------------------------------------- */
