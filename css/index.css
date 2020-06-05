@@ -198,6 +198,43 @@ nav {
     padding-right: 0;
 }
 
+/* CSS specific to about.html -----------------------------------------------------------------------------------------------*/
+
+.section-about {
+    margin: 3% 0;
+    border-bottom: 1px dashed #000;
+}
+
+.section-about p {
+    margin-bottom: 2%;
+}
+
+.section-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box {
+    flex-basis: 40%;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.about-box p {
+    margin-bottom: 3%;
+}
+
+.button-learn {
+    border: 2px solid #000;
+    border-radius: 6px;
+    background: #fff;
+    padding: 2% 4%;
+}
+
+/* END of CSS specific to about.html--------------------------------------------------------------------------------------------- */
+
 footer {
     width: 100%;
     background: black;
