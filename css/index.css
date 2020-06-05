@@ -255,6 +255,30 @@ hr {
 
 /* END of CSS specific to about.html--------------------------------------------------------------------------------------------- */
 
+/* CSS for contact.html ------------------------------------------------------------------------------------------ */
+
+.section-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-contact input, .section-contact textarea, .section-contact button {
+    display: block;
+    margin-bottom: 2%;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 4% 8%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
 footer {
     width: 100%;
     background: black;
