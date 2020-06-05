@@ -29,19 +29,29 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
-
+ 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
-
+ 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+Semantic HTML are tags that you use in your HTML document that tell computers and screen readers what part of the page the content is in.
+Although you won't necessarily notice any visual changes to your layout when you add semantic HTML tags, people who use screen readers will be able to differentiate between a navigation bar, your header, sections of your page (similar to chapters in a book), and your footer.  It's not only important that you use semantic HTML for people with visual impairments, but also for web search engines that scan your website to find particular information that will be used to determine what your webpage contains.
+ 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+When an element has a display set to block, that element will take up the entire horizontal space of the parent container.  Any element that follows it in the HTML document will be placed below its margin.  An inline element only takes up the amount of space that it needs to, and if the next element in the HTML document is also inline, they will be placed next to each other.  Another difference between them is that, with block-level elements, you can control the element's width and center it on the page much more easily.  Inline elements do not take a width property, so you cannot change its width.
+ 
 3. What are the 4 areas of the box model?
-
+The four areas of the box model include: 
+    1. the content: What you're trying to render on a webpage (images, text, links, child elements),
+    2. padding: The invisible space between the content and the border,
+    3. border: the space that surrounds the content and padding,
+    4. margin: the invisible space that exists directly outside of the element.
+ 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+The align-items property will work on the cross axis.
+ 
 5. Explain why git is valuable to a team of developers.
-
+Git allows developers to create save states of their work. When a developer commit's their work on git, they are essentially creating a snapshot of their work that they can later use for reference or revert back to.  Git is valuable for teams of developers because it allows them to each have their own copies of the project, which allows them to all work on the same project on their own devices.  The original project (the master repository) will keep track of everyone's copy and the developers have the ability to check each other's work and merge them when needed or fix conflicts if any should arise.
+ 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

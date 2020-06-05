@@ -71,6 +71,78 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 2%;
+    height: 7vh;
+}
+
+.nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.header-image-container img {
+    width: 100%;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
