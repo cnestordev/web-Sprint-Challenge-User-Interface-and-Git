@@ -71,6 +71,79 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 2%;
+    height: 7vh;
+}
+
+.nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.header-image-container img {
+    width: 100%;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +198,86 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* CSS specific to about.html -----------------------------------------------------------------------------------------------*/
+
+hr {
+    border: none;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 3%;
+}
+
+.section-about {
+    margin: 3% 0;
+}
+
+.section-about p {
+    margin-bottom: 2%;
+}
+
+.section-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.about-padding {
+    padding: 0 2%;
+}
+
+.about-box {
+    flex-basis: 40%;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.about-box img {
+    margin-bottom: 1%;
+}
+
+.about-box p {
+    margin-bottom: 3%;
+}
+
+.button-learn {
+    border: 2px solid #000;
+    border-radius: 6px;
+    background: #fff;
+    padding: 2% 4%;
+}
+
+.section-cta {
+    margin-bottom: 4%;
+}
+
+/* END of CSS specific to about.html--------------------------------------------------------------------------------------------- */
+
+/* CSS for contact.html ------------------------------------------------------------------------------------------ */
+
+.section-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-contact input, .section-contact textarea, .section-contact button {
+    display: block;
+    margin-bottom: 2%;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 4% 8%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
 
 footer {
     width: 100%;
